@@ -1,0 +1,68 @@
+/* general text formatting */
+
+
+body {
+   font-family: "Open Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+ background-color: #ECEFF1;
+}
+
+section {
+   background-color: white;
+   margin: 1em 4em 1em 4em;
+   border: solid 1pt black;
+
+}
+section h3 {
+  color: white;
+  padding: 0.75rem;
+  background-color: #7986CB ;
+}
+
+
+
+/* form formatting */
+
+form {
+   margin: 0.5em auto;
+    width: 90%;
+}
+fieldset {
+  padding: 0 1em 1em 1em;
+}
+legend {
+	background-color: #9FA8DA;
+	color: white;
+	font-size: 1em;
+	padding: 0.5rem;
+	text-align: center;
+    width: 100%;
+    font-size: 0.85em;
+}
+
+label {
+    font-weight: bold;
+}
+form p {
+   margin-top: 1em;
+}
+
+
+input[type=text], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=button] {
+   background-color: #F06292;
+    color: white;
+    height: 3em;
+    width: 7em;
+    border-style: none;
+    border-radius: 15px;
+}
+input[type=button]:hover {
+    background-color: #D81B60;
+}

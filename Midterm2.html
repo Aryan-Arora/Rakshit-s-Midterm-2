@@ -1,0 +1,77 @@
+
+   <!doctype html>
+   <html lang="en">
+
+   <head>
+   <title>Midterm 2</title>
+   <h1>Purchase Reciept</h1>
+   <link rel="stylesheet"  href="style.css"/>
+   <link   href="Midterm.js"/>
+   </head>
+
+
+
+   <body>
+
+      <script type="text/javascript" src="Midterm.js">
+         
+         
+      </script>
+      <script type="text/javascript">
+
+function calculateTax(x){
+    var x=200;
+    
+    x= x+12*x/100
+
+    document.write(x )
+
+}
+
+      </script>
+      <section >
+
+
+         <form action="/action_page.php" method="get"></form>
+    <fieldset>
+        <legend>Apply Tax</legend>
+        <p>
+        <label>Item Price(before tax)</label>
+        <br>
+        <input type="text" name="title"/>
+        <br>
+        
+        <p>
+        <label>Tax Province</label><br>
+        <select name="where">
+            <option>Choose A province </option>
+            <option>BC</option>
+            <option>ON</option>
+            <option>AB</option>
+            <br>
+            
+        </select>
+        <br>
+        <button type="reset">Clear</button>
+        <button onclick="calculateTax();">Calculate</button>
+        
+        </p>
+   
+        <p>
+           
+        </p>
+        <p>
+            <label>Final Price(after tax)</label>
+            <br>
+            <script>
+               document.write(x);
+               </script>
+        </p>
+        
+    </fieldset>    
+   </form>
+      </section>
+
+   </body>
+
+   </html>
